@@ -1,0 +1,29 @@
+# Elenco file e cartelle da caricare su GitHub e compatibili con Vercel
+
+# File e cartelle principali:
+app/
+components/
+docs/
+hooks/
+lib/
+public/
+scripts/
+styles/
+types/
+next-env.d.ts
+next.config.js
+package.json
+postcss.config.js
+tailwind.config.js
+tsconfig.json
+vercel.json
+README.md
+
+# File di lock (opzionale, consigliato per versionamento):
+package-lock.json
+
+# File da escludere (già in .gitignore):
+node_modules/
+deploy/
+.env
+*.log
