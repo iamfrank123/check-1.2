@@ -1,1 +1,6 @@
-// ...existing code from root postcss.config.js...
+module.exports = {
+    plugins: {
+        tailwindcss: {},
+        autoprefixer: {},
+    },
+}
